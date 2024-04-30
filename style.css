@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    box-sizing: border-box;}
+body{
+    position: relative;
+    width: 100%;}
+.anuncio{
+    width: 100%;
+    background-color: black;
+    height: 20px;
+    overflow: hidden;}   
+.anuncioDI{
+    text-align: center;
+    align-items: center; }
+.anuncio1{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    justify-items: center;
+    margin-left: 46%;
+    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;}
+.anuncioT1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;}
+.anuncioI{
+    width: 8%;}     
+.cabeza{
+    display: flex;}
+header{
+    width: 100%;
+    height: 20.5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:red;
+    display: flex;}
+.volgaS{
+    width: 42%;
+    padding: 0.5%;
+    height: 100%;
+    border-radius: 100%;
+    background: red;}
+.menu1{
+    align-items: center; 
+    display: flex;
+    position: relative;
+    color: red;
+    margin-left: 30%; 
+    align-items: center;}
+.menu{
+    display: flex;
+    left: 0%;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 2s;
+    align-items: center;}
+.hb{
+    color: aliceblue;
+    position: relative;
+     text-decoration: none;
+     transition: all 1s;
+    padding: 0% 42px;}
+.imaHouse{
+    display: flex;
+    position: relative;
+    left: -9%;
+    top: 20px;
+    overflow: clip;
+    border-radius: 100%;
+    transition: all 2s;
+    width: 30%;}
+.hb:hover{
+    color: black;}
+.imaHouse:hover{
+    background-color: black;}
+.span1{
+    top: 89%;
+    left: 0%;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    transition: all 2s;}
+.span1:hover{
+    background: black;
+    width: 0%;}
+.swiper{
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+.catalogoP{
+    width: 60%;
+    display: block;
+    position: relative;
+    justify-content: center;  
+    align-items: center;
+    display: block;}
+.imagenCatalogo{
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 106%;
+    box-shadow: 6px 10px 20px;}
+.mySwiper{
+    background: #323232;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000;
+    margin: 0%;
+    padding: 0%;}  
+.swiper-catalogoP{
+    width: 100%;
+    display: flex;
+    padding: 50px 0 15px 0;}
+.swiper-slide{
+    width: 300px;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;}
+.iconoimports{
+    width: 80%;}
+.CatalogoM{
+    padding: 0.5%;
+    text-align: center;
+    color: #323232;
+    letter-spacing: 2px;
+    font-size: 15px; 
+    margin: 6% 0 0 0;}
+.slideri{
+    width: 96vw;
+    margin: auto;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;}
+.slideri .slideri-track{
+    display: inline-flex;
+    align-items: center;
+    width: calc(400px * 8);
+    animation: scrollI 40s infinite linear;
+    -webkit-animation: scrollI 40s infinite linear;}
+.slideri .slidei{
+    width: 400px;}
+.slideri .slidei .ima_slider{
+    width: 100%;
+    border-radius: 100%;
+    left: 10%;
+    filter: drop-shadow(0 26px 22px black);}
+.ima_slider:hover{
+    scale: 1.6;}   
+.sigaRedes{
+    background-color: #323232;
+}
+.animacionTexto{
+    display: flex;
+    justify-content: center;
+    background-color: #000;}
+.ATexto{
+    margin: 16 0;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(-250deg, #12c2e9 0%, #c471ed 50%, #f64f59 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textoAnimacion 2.5s linear infinite;
+    font-size: 3em;}
+.cuaRedes{
+    background-color: #c471ed;
+    border-radius: 20%;
+}    
+.catalogoInferior{
+    width: 100%;
+    display: flex;
+    margin: 1% 0% 10% 0%;}
+.targetaIP{
+    width: 100%;
+    margin: 0 0 0 40;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);}
+.c1{
+  width: 300px;
+  height: 500px;
+  background-color: rgb(241, 231, 217);
+  box-shadow: 0 0 20px rgb(189, 182, 182);
+  padding: 9px;
+  margin: 0 0 12 0;
+  text-align: center;}
+.imavol{
+ width: 140px;
+ margin: 0 10 0 80;}
+.iCa{
+    margin-top: 4%;
+    margin-left: 0%;
+    width: 100%;
+    height: 44%;
+    border-radius: 12%;
+    filter: drop-shadow(0 26px 22px black);}
+.catalogoTitulo h4{
+    color: #323232;
+    letter-spacing: 2px;
+    font-size: 15px; 
+    margin: 6% 0 0 0;}
+.catalogoTitulo h3{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0 0 12 0;
+    letter-spacing: 20%;
+    flex-basis: 50%;
+    font-size: 20px;
+    font-weight: bold;}
+.precio{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;}
+.btn-compra{
+    display: inline-block;
+    width: 50%;
+    padding: 13px 15px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid black;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 20%;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;}
+
+
+footer{
+width: 100%;
+background-color: #000;
+color: aliceblue;
+}
+
+@keyframes textoAnimacion{
+
+    to{
+        background-position: 200% center;
+    }
+}
+@keyframes scrollI {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);}    
+    100%{
+        -webkit-transform: translateX(calc(-250px * 8));
+        transform: translateX(calc(-250px * 8));}}   
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);}    
+    100%{
+        -webkit-transform: translateY(calc(36px));
+        transform: translateY(calc(36px));}}    
