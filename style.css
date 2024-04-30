@@ -150,9 +150,6 @@ header{
     filter: drop-shadow(0 26px 22px black);}
 .ima_slider:hover{
     scale: 1.6;}   
-.sigaRedes{
-    background-color: #323232;
-}
 .animacionTexto{
     display: flex;
     justify-content: center;
@@ -169,11 +166,32 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textoAnimacion 2.5s linear infinite;
-    font-size: 3em;}
+    font-size: 3em;}  
+.sigaRedes{
+    width: 100%;
+    align-content: center;
+    background-color: #323232;}
 .cuaRedes{
-    background-color: #c471ed;
-    border-radius: 20%;
-}    
+    background-color: #000;
+    display:flex;
+    width: 100%;
+    padding: 0 20 3 20;
+    height: 430px;
+}
+.cuaRedes img{
+    border-radius: 6%;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.cuaRedes img:hover{
+    cursor: crosshair;
+    width: 740px;
+    opacity: 1;
+    filter: contrast(100%);
+}
 .catalogoInferior{
     width: 100%;
     display: flex;
@@ -237,15 +255,12 @@ header{
 footer{
 width: 100%;
 background-color: #000;
-color: aliceblue;
-}
+color: aliceblue;}
 
 @keyframes textoAnimacion{
 
     to{
-        background-position: 200% center;
-    }
-}
+        background-position: 200% center;}}
 @keyframes scrollI {
     0%{
         -webkit-transform: translateX(0);
