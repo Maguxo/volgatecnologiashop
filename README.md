@@ -2,6 +2,8 @@
 
  <h1>📲🚀🚛 Volga Tecnología Shop ⌚🤳🕰👩‍💻</h1>
 <img width="920" alt="muestra" src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/9c21e8b2-8716-421e-8af9-1624ccd9f6ac">
+<img width="920" alt="muestra" src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/df7c77c2-aa8d-474e-9041-27e6936bb123">
+
 
 <p>Página web creada con fin de formar una tienda virtual expuesta al publico.</p>
   <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/6ecf6ddf-f605-46e4-a992-5ba3723df9f6"  width=30%/>
