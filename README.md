@@ -1,10 +1,9 @@
 <div align="center">
 
  <h1>📲🚀🚛 Volga Tecnología Shop ⌚🤳🕰👩‍💻</h1>
+<img width="920" alt="muestra" src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/9c21e8b2-8716-421e-8af9-1624ccd9f6ac">
 
- <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/d42be119-ef04-4d5f-9fcc-3b8f24edbf19" width="500" height="250">
-
-<p>Página web creada para un cliente que se destaca en ventas de tecnología a nivel colombia y apriori necesita ser reconocida virtualmente.</p>
+<p>Página web creada con fin de formar una tienda virtual expuesta al publico.</p>
   <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/6ecf6ddf-f605-46e4-a992-5ba3723df9f6"  width=30%/>
    <img src="https://github.com/Maguxo/VolgaTecnologia/assets/98346054/0d50953f-66b7-4114-b6d8-47908f0b020e"  width=30%/>
 
