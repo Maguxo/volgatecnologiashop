@@ -6,6 +6,7 @@ body{
     width: 100%;}
 .anuncio{
     width: 100%;
+    align-items: center;
     background-color: black;
     height: 20px;
     overflow: hidden;}   
@@ -13,74 +14,58 @@ body{
     text-align: center;
     align-items: center; }
 .anuncio1{
+    justify-content: center;
     display: flex;
     align-items: center;
     margin: 0%;
     justify-items: center;
-    margin-left: 46%;
     -webkit-animation: scroll 10s linear infinite;
     animation: scroll 10s linear infinite;}
 .anuncioT1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: antiquewhite;}
 .anuncioI{
-    width: 8%;}     
+    width: 6%;}     
 .cabeza{
     display: flex;}
 header{
+    top: 0%;
+    left: 0%;
     width: 100%;
     height: 20.5%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background:red;
-    display: flex;}
-.volgaS{
-    width: 42%;
-    padding: 0.5%;
-    height: 100%;
-    border-radius: 100%;
+    justify-content: space-between;}
+.volgaS .logoP{
+    width: 36.5%;
     background: red;}
-.menu1{
-    align-items: center; 
-    display: flex;
-    position: relative;
-    color: red;
-    margin-left: 30%; 
-    align-items: center;}
 .menu{
-    display: flex;
-    left: 0%;
-    position: relative;
-    text-decoration: none;
-    overflow: hidden;
-    transition: all 2s;
-    align-items: center;}
-.hb{
+    width: 70%;}
+.menu,.hb{
     color: aliceblue;
-    position: relative;
-     text-decoration: none;
-     transition: all 1s;
-    padding: 0% 42px;}
+    text-decoration: none;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 40 0 0 0;
+    transition: all 2s;}
 .imaHouse{
-    display: flex;
     position: relative;
-    left: -9%;
-    top: 20px;
     overflow: clip;
     border-radius: 100%;
     transition: all 2s;
-    width: 30%;}
-.hb:hover{
-    color: black;}
-.imaHouse:hover{
-    background-color: black;}
-.span1{
-    top: 89%;
-    left: 0%;
-    width: 100%;
+    width: 60px;}
+.span1{ 
+    top: 90px;
+    left: 60%;
+    width: 37.5%;
     height: 3px;
     position: absolute;
     background: red;
-    transition: all 2s;}
+    transition: all 3s;}
+ .hb:hover{
+    color: black;}
+.imaHouse:hover{
+    background-color: black;}
 .span1:hover{
     background: black;
     width: 0%;}
@@ -150,6 +135,22 @@ header{
     filter: drop-shadow(0 26px 22px black);}
 .ima_slider:hover{
     scale: 1.6;}   
+.products{
+    display: flex;
+    width: 100%;
+    height: 500px;}
+.products img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .6s ease;}    
+.products img:hover{
+    cursor: crosshair;
+    width: 300px;
+    border-radius: 6%;
+    opacity: 1;
+    filter: contrast(120%);}
 .animacionTexto{
     display: flex;
     justify-content: center;
@@ -176,8 +177,7 @@ header{
     display:flex;
     width: 100%;
     padding: 0 20 3 20;
-    height: 430px;
-}
+    height: 430px;}
 /*.cuaRedes img{
     border-radius: 6%;
     width: 0px;
@@ -200,7 +200,7 @@ header{
     width: 100%;
     margin: 0 0 0 40;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);}
+    grid-template-columns: repeat(4,1fr);}
 .c1{
   width: 300px;
   height: 500px;
@@ -250,15 +250,11 @@ header{
     color: white;
     text-decoration: none;
     margin-top: 40px;}
-
-
 footer{
 width: 100%;
 background-color: #000;
 color: aliceblue;}
-
 @keyframes textoAnimacion{
-
     to{
         background-position: 200% center;}}
 @keyframes scrollI {
@@ -268,7 +264,6 @@ color: aliceblue;}
     100%{
         -webkit-transform: translateX(calc(-250px * 8));
         transform: translateX(calc(-250px * 8));}}   
-
 @keyframes scroll {
     0%{
         -webkit-transform: translateY(-100px);
