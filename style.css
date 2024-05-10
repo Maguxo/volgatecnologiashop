@@ -116,6 +116,7 @@ header{
     margin: 6% 0 0 0;}
 .slideri{
     width: 96vw;
+    background-color: rgb(218, 214, 214);
     margin: auto;
     height: auto;
     white-space: nowrap;
@@ -135,6 +136,10 @@ header{
     filter: drop-shadow(0 26px 22px black);}
 .ima_slider:hover{
     scale: 1.6;}   
+.titulos2{
+    display: flex;
+    justify-content: center;
+    background-color: #000;}
 .products{
     display: flex;
     width: 100%;
@@ -170,6 +175,8 @@ header{
     font-size: 3em;}  
 .sigaRedes{
     width: 100%;
+    align-items: center;
+    font-family: Roboto;
     align-content: center;
     background-color: #323232;}
 .cuaRedes{
@@ -177,8 +184,82 @@ header{
     display:flex;
     width: 100%;
     padding: 0 20 3 20;
-    height: 430px;}
-/*.cuaRedes img{
+    height: 350px;}
+.targeta1{
+    width: 100%;
+    padding: 0 20px 0;
+    justify-content: center;
+    align-items: center;
+}    
+.nomredes h3{
+    bottom: 45px;
+}    
+.botonR{
+    display: flex;}
+.liR{
+    list-style: none;
+    margin: 0 20px;}
+.liR2{
+    list-style: none;
+    margin: 0 20px;}
+.liR3{
+    list-style: none;
+    margin: 0 20px;}
+.imaR{
+    font-size: 40px;
+    padding: 0 16px;}
+.botonA{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    background-color:white;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transform: rotate(-30deg) skew(25deg);
+    box-shadow: -20px 20px 10px rgba(201, 197, 197, 0.5);}
+.botonA:before, .botonA:after{
+    content: '';
+    bottom: 10%;
+    position: absolute;
+    background: gray;
+    transition: var(--time);}
+.botonA:before{
+    top: 10px;
+    left: -20;
+    height: 100%;
+    width: 20px;
+    transform: rotate(0deg) skewY(-45deg);}
+.botonA::after{
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skewX(-45deg);}
+.botonA:hover{
+    transform: rotate(-30deg) skew(25deg) translate(25px, -15px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+    color: white;}
+.liR:hover .botonA{
+    background-color: #3b5998;}
+.liR:hover .botonA:before{
+    background-color: #365492;}
+.liR:hover .botonA:after{
+    background-color: #4a69ad;}
+.liR2:hover .botonA{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4,#C13584, #E1306C,#FD1D1D);}
+.liR2:hover .botonA:before{
+    background:linear-gradient(45deg, #405DE6, #5851DB, #833AB4);}
+.liR2:hover .botonA:after{
+    background:linear-gradient(45deg, #405DE6, #5851DB, #833AB4,#833AB4, #E1306C,#FD1D1D);}
+.liR3:hover .botonA{
+    background:linear-gradient(45deg, #000000, #00f2ea, #ff0050);}
+.liR3:hover .botonA:before{
+    background: linear-gradient(45deg, #ff0050, #00f2ea, #000000);}
+.liR3:hover .botonA:after{
+    background: linear-gradient(45deg, #ff0050, #00f2ea, #000000);}
+    /*.cuaRedes img{
     border-radius: 6%;
     width: 0px;
     flex-grow: 1;
