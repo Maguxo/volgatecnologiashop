@@ -180,20 +180,48 @@ header{
     align-content: center;
     background-color: #323232;}
 .cuaRedes{
-    background-color: #000;
+    background-color: black;
     display:flex;
     width: 100%;
     padding: 0 20 3 20;
     height: 350px;}
-.targeta1{
+.tarjeta1{
+    
+    border-radius: 2rem;
     width: 100%;
+    border-radius: 10%;
+    position: relative;
+    margin: 0px 1px;
+    overflow: hidden;
     padding: 0 20px 0;
     justify-content: center;
-    align-items: center;
+    align-items: center;}
+.tarjeta1::before{
+    content: '';
+    position: absolute;
+    height: 366px;
+    width: 396px;
+    z-index: 0;
+    background-image: conic-gradient(#12c2e9, #77dcf3 0%, transparent);
+    animation: rotemami 6s linear infinite;}
+@keyframes rotemami{
+    from{
+        transform: rotate(0deg);
+    }to{transform: rotate(-360deg);}
+}  
+.tarjeta1::after{
+    content: "";
+    height: 356px;
+    width: 386px;
+    left: 2%;
+    top: 1%;
+    bottom: 2%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #000;
 }    
 .nomredes h3{
-    bottom: 45px;
-}    
+    bottom: 45px;}    
 .botonR{
     display: flex;}
 .liR{
@@ -254,9 +282,9 @@ header{
 .liR2:hover .botonA:after{
     background:linear-gradient(45deg, #405DE6, #5851DB, #833AB4,#833AB4, #E1306C,#FD1D1D);}
 .liR3:hover .botonA{
-    background:linear-gradient(45deg, #000000, #00f2ea, #ff0050);}
+    background:linear-gradient(45deg, #000000, #00f2ea, #ff0050, #ff0050);}
 .liR3:hover .botonA:before{
-    background: linear-gradient(45deg, #ff0050, #00f2ea, #000000);}
+    background: linear-gradient(45deg, #ff0050,#ff0050, #00f2ea, #000000);}
 .liR3:hover .botonA:after{
     background: linear-gradient(45deg, #ff0050, #00f2ea, #000000);}
     /*.cuaRedes img{
