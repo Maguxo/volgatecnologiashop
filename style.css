@@ -173,6 +173,7 @@ header{
     -webkit-text-fill-color: transparent;
     animation: textoAnimacion 2.5s linear infinite;
     font-size: 3em;}  
+
 .sigaRedes{
     width: 100%;
     align-items: center;
@@ -206,8 +207,7 @@ header{
 @keyframes rotemami{
     from{
         transform: rotate(0deg);
-    }to{transform: rotate(-360deg);}
-}  
+    }to{transform: rotate(-360deg);}}  
 .tarjeta1::after{
     content: "";
     height: 336px;
@@ -217,8 +217,7 @@ header{
     bottom: 2%;
     position: absolute;
     border-radius: 10px;
-    background-color: #000;
-}
+    background-color: #000;}
 .tarjeta2{
     border-radius:2rem;
     width: 100%;
@@ -230,8 +229,7 @@ header{
     z-index: 1;
     padding: 0 20px 0;
     justify-content: center;
-    align-items: center;
-}    
+    align-items: center;}    
 .nomredes h3{
     bottom: 45px;}    
 .botonR{
