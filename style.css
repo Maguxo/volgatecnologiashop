@@ -173,7 +173,6 @@ header{
     -webkit-text-fill-color: transparent;
     animation: textoAnimacion 2.5s linear infinite;
     font-size: 3em;}  
-
 .sigaRedes{
     width: 100%;
     align-items: center;
@@ -338,6 +337,19 @@ header{
     height: 44%;
     border-radius: 12%;
     filter: drop-shadow(0 26px 22px black);}
+.iCa2{
+        margin-top: -76%;
+        margin-left: 0%;
+        width: 100%;
+        height: 46%;
+        opacity: 0.0;
+        border-radius: 12%;
+        transition: 1s all;
+        filter: drop-shadow(0 26px 22px black);}
+.iCa2:hover{
+  opacity: 1;
+  height: 50%;
+  transform: scale(1.1);} 
 .catalogoTitulo h4{
     color: #323232;
     letter-spacing: 2px;
@@ -370,9 +382,79 @@ header{
     text-decoration: none;
     margin-top: 40px;}
 footer{
+display:flex ;
+justify-content:center ;
 width: 100%;
-background-color: #000;
-color: aliceblue;}
+min-height: 100px;
+padding: 20px 50px;
+position: relative;
+background-color: #EC1C24;
+color: aliceblue;
+flex-direction: column;
+align-items:center ;}
+footer .info{
+    display:flex ;
+}
+footer li{
+    list-style: none;
+    text-decoration: none;
+}
+footer li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.copyright{
+ text-align:center;
+}
+footer .wave{
+    position: absolute;
+    top:-80px ;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    background: black url(categoria/wave2.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animationWave 6s linear infinite   ;
+} 
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.4;
+    bottom: 10px;
+    animation: animationWave_2 4s linear infinite   ;
+} 
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.6;
+    bottom: 15px;
+    animation: animationWave 2s linear infinite   ;
+} 
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animationWave_2 1s linear infinite   ;
+} 
+@keyframes animationWave_2 {
+    0%{
+        background-position-x: 1000px ;
+    }
+    100%{
+        background-position-x: 0px ;
+    }
+}
+@keyframes animationWave {
+    0%{
+        background-position-x: 0px ;
+    }
+    100%{
+        background-position-x: 1000px ;
+    }
+}
 @keyframes textoAnimacion{
     to{
         background-position: 200% center;}}
@@ -385,8 +467,8 @@ color: aliceblue;}
         transform: translateX(calc(-250px * 8));}}   
 @keyframes scroll {
     0%{
-        -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);}    
+        -webkit-transform: translateY(-120px);
+        transform: translateY(-120px);}    
     100%{
         -webkit-transform: translateY(calc(36px));
         transform: translateY(calc(36px));}}    
