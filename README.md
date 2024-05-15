@@ -6,7 +6,7 @@
 
 
 <p>Página web creada con fin de formar una tienda virtual expuesta al publico.</p>
-  <img src=""  width=30%/>
+  <img src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/489d1b16-1b96-4c1b-a6e3-8ca03509517c" />
    <img src=""  width=30%/>
 
 
