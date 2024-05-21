@@ -230,7 +230,8 @@ header{
     justify-content: center;
     align-items: center;}    
 .nomredes h3{
-    bottom: 45px;}    
+    bottom: 45px;
+font-size: 17.4px}    
 .botonR{
     display: flex;}
 .liR{
@@ -296,20 +297,6 @@ header{
     background: linear-gradient(45deg, #ff0050,#ff0050, #00f2ea, #000000);}
 .liR3:hover .botonA:after{
     background: linear-gradient(45deg, #ff0050, #00f2ea, #000000);}
-    /*.cuaRedes img{
-    border-radius: 6%;
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-.cuaRedes img:hover{
-    cursor: crosshair;
-    width: 740px;
-    opacity: 1;
-    filter: contrast(100%);
-}*/
 .catalogoInferior{
     width: 100%;
     display: flex;
@@ -393,13 +380,21 @@ color: aliceblue;
 flex-direction: column;
 align-items:center ;}
 footer .info{
-    display:flex ;}
+    display:flex;}
 footer li{
     list-style: none;
     text-decoration: none;}
 footer li a{
     text-decoration: none;
     color: aliceblue;}
+footer .nosotros{
+ align-items:center;
+ justify-content: center;
+ margin: 6px 6px 10px ;}
+ footer a:hover{
+    transition: 1s all;
+    color: #000;
+ }    
 .copyright{
  text-align:center;}
 footer .wave{
