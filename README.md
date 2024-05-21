@@ -8,7 +8,7 @@
 <p>Página web creada con fin de formar una tienda virtual expuesta al publico.</p>
   <img src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/489d1b16-1b96-4c1b-a6e3-8ca03509517c" />
    <img src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/da850131-cf22-4f43-9ea4-86283eae7834"  />
-   <img src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/ed920a4a-98bd-4ef5-9046-c26cb1b820e9"  />
+   <img src="https://github.com/Maguxo/volgatecnologiashop/assets/98346054/c20b42ba-7ad9-479e-a27c-66794c3ce5b3"  />
 
 
 ---
