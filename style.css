@@ -393,8 +393,7 @@ footer .nosotros{
  margin: 6px 6px 10px ;}
  footer a:hover{
     transition: 1s all;
-    color: #000;
- }    
+    color: #000;}    
 .copyright{
  text-align:center;}
 footer .wave{
