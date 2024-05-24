@@ -199,6 +199,7 @@ header{
     align-items: center;}
 .tarjeta1::before{
     content: '';
+    border-radius: 10%;
     position: absolute;
     height: 366px;
     width: 396px;
@@ -233,7 +234,7 @@ header{
     align-items: center;}    
 .nomredes h3{
     bottom: 45px;
-font-size: 17.4px}    
+    font-size: 14.4px;}    
 .botonR{
     display: flex;}
 .liR{
@@ -305,7 +306,7 @@ font-size: 17.4px}
     margin: 0% 0% 2% 0%;}
 .targetaIP{
     width: 100%;
-    margin: 0 0 0 40;
+    margin: 0 0 0 16;
     display: grid;
     grid-template-columns: repeat(4,1fr);}
 .c1{
@@ -323,7 +324,7 @@ font-size: 17.4px}
     margin-top: 4%;
     margin-left: 0%;
     width: 100%;
-    height: 44%;
+    height: 43%;
     border-radius: 12%;
     filter: drop-shadow(0 26px 22px black);}
 .iCa2{
@@ -395,7 +396,7 @@ footer .nosotros{
  margin: 6px 6px 10px ;}
  footer a:hover{
     transition: 1s all;
-    color: #000;}    
+    color: red;}    
 .copyright{
  text-align:center;}
 footer .wave{
