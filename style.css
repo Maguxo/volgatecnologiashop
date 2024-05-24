@@ -138,6 +138,7 @@ header{
     scale: 1.6;}   
 .titulos2{
     display: flex;
+    text-align: center;
     justify-content: center;
     background-color: #000;}
 .products{
@@ -158,6 +159,7 @@ header{
     filter: contrast(120%);}
 .animacionTexto{
     display: flex;
+    text-align: center;
     justify-content: center;
     background-color: #000;}
 .ATexto{
