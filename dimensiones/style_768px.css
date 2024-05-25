@@ -1,37 +1,40 @@
-@media only screen and (min-width: 1441px) and (max-width:1471px){
+@media only screen and (min-width:601px) and (max-width:768px){
     .cabeza .logoP{
-      width: 84.5%;}
+      width: 48.5%;}
    .cabeza .menu{
         display: flex;
-        width: 182%;
+        width: 100%;
         color: aliceblue;
             text-decoration: none;
             font-weight: 400;
             overflow: hidden;
             padding: 38 0 ;}
     .menu .hb{
-        padding: 38px 0 0 100px;}
+        padding: 0 0 0 ;}
    .menu a{
-        font-size: 20px;}
+        font-size: 11px;}
     .imaHouse{
-        width: 70px;}    
+        width: 32px;}    
     .span1{ 
-        top: 134px;
-        left: 41%;
-        width: 58.5%;
+        top: 76px;
+        left: 63%;
+        width: 36.5%;
         height: 3px;
         position: absolute;
         background: red;
         transition: all 3s;}              
     .targetaIP{
         width: 100%;
-        margin: 20 0 0 66;
+        margin: 20 66;
         display: grid;
-        grid-template-columns: repeat(4,1fr);}
+        grid-template-columns: repeat(2,1fr);}
+        .c1{
+            width: 316px;
+        }
     .cuaRedes{
         display:flex;
         width: 100%;
-        padding: 0 0 0 50;
+        padding: 0 0 18;
         height: 430px;}
     .tarjeta1{
         border-radius: 6rem;
@@ -43,8 +46,8 @@
         padding: 0 20;
         justify-content: center;
         align-items: center;}
-        .tarjeta1::after{
-            width: 423;}
+    .tarjeta1::after{
+        width: 247px;}
     .tarjeta2{
         border-radius:2rem;
         width: 100%;
@@ -59,13 +62,21 @@
         align-items: center;}
     .nomredes h3{
         bottom: 45px;
-        font-size: 20.4px;}  
+        font-size: 16.4px;
+    padding: 0 0;}  
     .liR{
         list-style: none;
-        margin: 0 81px;}
+        margin: 0 0px;}
     .liR2{ 
         list-style: none;
-        margin: 0 81px;}
+        margin: 0 0px;}
     .liR3{
         list-style: none;
-        margin: 0 81px;} }  
+        margin: 0 0px;}
+    .botonA{
+        width: 150px;
+        height: 46px;}
+    .imaR{
+        padding: 0 6;}
+    footer{
+        padding: 20 20;} }  

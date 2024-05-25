@@ -1,6 +1,7 @@
-@media only screen and (min-width: 1441px) and (max-width:1471px){
+@media only screen and (min-width: 1401px) and (max-width:1440px){
+   
     .cabeza .logoP{
-      width: 84.5%;}
+      width: 76.5%;}
    .cabeza .menu{
         display: flex;
         width: 182%;

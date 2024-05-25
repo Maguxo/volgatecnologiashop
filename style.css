@@ -46,14 +46,14 @@ header{
     text-decoration: none;
     font-weight: 500;
     overflow: hidden;
-    padding: 40 0 0 0;
+    padding: 40 0 0 8;
     transition: all 2s;}
 .imaHouse{
     position: relative;
     overflow: clip;
     border-radius: 100%;
     transition: all 2s;
-    width: 60px;}
+    width: 50px;}
 .span1{ 
     top: 90px;
     left: 60%;

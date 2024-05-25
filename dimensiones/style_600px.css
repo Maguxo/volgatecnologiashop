@@ -1,31 +1,93 @@
-@media only screen and (max-width: 1070px){
-    .targetaIP{
-        width: 80%;
-        margin: 0 0 0 15%;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);}}
-@media only screen and (max-width: 600px){
-    header{
-        display: flex;
-        overflow: hidden;
-        justify-content:center ;
-        height: 86.5px;}
+@media only screen and (min-width:481px) and (max-width:600px){
     .cabeza .logoP{
-      width: 60.5%;}
-    .cabeza .menu{
-        display: flex;
-        width: 182%;
-        color: aliceblue;
-            text-decoration: none;
-            font-weight: 400;
-            overflow: hidden;
-            padding: 0 0 ;}
-    .menu .hb{
-        padding: 18px 0 0 0;}
-    .imaHouse{
-        width: 50px;}                  
-    .targetaIP{
-        width: 100%;
-        margin: 0 0 0 0;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);}}
+        width: 74.5%;}
+     .cabeza .menu{
+          display: flex;
+          width: 200%;
+          color: aliceblue;
+              text-decoration: none;
+              font-weight: 400;
+              overflow: hidden;
+              padding: 40 4 ;}
+      .menu .hb{
+          padding: 0 0 0 ;}
+     .menu a{
+          font-size: 11px;}
+      .imaHouse{
+          width: 32px;}    
+      .span1{ 
+          top: 96px;
+          left: 53%;
+          width: 45.5%;
+          height: 3px;
+          position: absolute;
+          background: red;
+          transition: all 3s;}              
+      .targetaIP{
+          width: 100%;
+          margin: 20 0;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);}
+      .c1{
+          width: 300px;}
+      .cuaRedes{
+          display:flex;
+          width: 100%;
+          padding: 0 0 18;
+          height: 430px;}
+      .tarjeta1{
+          border-radius: 6rem;
+          width: 100%;
+          border-radius: 10%;
+          position: relative;
+          margin: 0px 0px;
+          overflow: hidden;
+          padding: 0 20;
+          justify-content: center;
+          align-items: center;}
+      .tarjeta1::after{
+          width: 194px;}
+      .tarjeta2{
+          border-radius:2rem;
+          width: 100%;
+          height: 354px;
+          border-radius: 10%;
+          position: absolute;
+          margin: 0 0;
+          overflow: hidden;
+          z-index: 1;
+          padding: 0 0 0;
+          justify-content: center;
+          align-items: center;}      
+      .nomredes h3{
+          bottom: 45px;
+          font-size: 13.4px;
+          padding: 0 0;}  
+      .liR{
+          list-style: none;
+          margin: 0 0px;}
+      .liR2{ 
+          list-style: none;
+          margin: 0 0px;}
+      .liR3{
+          list-style: none;
+          margin: 0 0px;}
+      .botonA{
+          width: 110px;
+          height: 28px;}
+      .imaR{
+          padding: 6 0;}
+      footer{
+          padding: 20 0;} 
+      footer .info{
+        display: inline-block;
+      }    
+      #bloque1{
+        display: block;
+        justify-content: center ;
+        align-items: center;
+        padding: 6 48}    
+        #bloque2{
+        display: inline-block;}
+       #bloque3{
+        display: inline-block;}}     
