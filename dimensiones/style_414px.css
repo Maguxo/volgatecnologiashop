@@ -8,10 +8,10 @@
         display: flex;
         width: 306%;
         color: aliceblue;
-            text-decoration: none;
-            font-weight: 400;
-            overflow: hidden;
-            padding: 24 4 ;}
+        text-decoration: none;
+        font-weight: 400;
+        overflow: hidden;
+        padding: 24 4 ;}
     .menu .hb{
         padding: 0 0 0 ;}
     .menu a{
@@ -26,15 +26,21 @@
         position: absolute;
         background: red;
         transition: all 3s;} 
-    .ATexto{font-size: 2em;}                 
+    .ATexto{font-size: 1.6em;}                 
     .targetaIP{
         width: 100%;
-        margin: 20 68;
+        margin: 20 54;
         display: grid;
         grid-template-columns: repeat(1,1fr);}
     .c1{
         width: 300px;}
-        .cuaRedes{
+    .products img:hover{
+        cursor: crosshair;
+        width: 240px;
+        border-radius: 6%;
+        opacity: 1;
+        filter: contrast(120%);}
+    .cuaRedes{
         background-color: black;
         display:grid;
         width: 100%;
@@ -62,7 +68,7 @@
     .tarjeta1::after{
         content: "";
         height: 336px;
-        width: 376px;
+        width: 360px;
         left: 2%;
         top: 1%;
         bottom: 2%;
@@ -81,35 +87,35 @@
         padding: 0 20px 0;
         justify-content: center;
         align-items: center;}       
-      .nomredes h3{
+    .nomredes h3{
           bottom: 45px;
-          font-size: 15.9px;
+          font-size: 13.9px;
           padding: 0 0;}  
-          .botonR{
-            display: flex;}
-        .liR{
-            list-style: none;
-            margin: 16 50px;}
-        .liR2{
-            list-style: none;
-            margin: 16 50px;}
-        .liR3{
-            list-style: none;
-            margin: 0 50px;}
-        .imaR{
-            font-size: 40px;
-            padding: 0 16px;}
-        .botonA{
-            text-decoration: none;
-            font-size: 16px;
-            color: black;
-            background-color:white;
-            width: 180px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            transform: rotate(-30deg) skew(25deg);
-            box-shadow: -20px 20px 10px rgba(201, 197, 197, 0.5);}
+    .botonR{
+          display: flex;}
+    .liR{
+          list-style: none;
+          margin: 16 50px;}
+    .liR2{
+          list-style: none;
+          margin: 16 50px;}
+    .liR3{
+          list-style: none;
+          margin: 0 50px;}
+    .imaR{
+          font-size: 40px;
+          padding: 0 16px;}
+    .botonA{
+          text-decoration: none;
+          font-size: 16px;
+          color: black;
+          background-color:white;
+          width: 180px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          transform: rotate(-30deg) skew(25deg);
+          box-shadow: -20px 20px 10px rgba(201, 197, 197, 0.5);}
       footer{
           padding: 20 0;} 
       footer .info{
