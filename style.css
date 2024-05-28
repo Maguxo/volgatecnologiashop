@@ -70,9 +70,9 @@ header{
     background: black;
     width: 0%;}
 .swiper{
-        display: flex;
-        align-items: center;
-        justify-content: center;}
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 .catalogoP{
     width: 60%;
     display: block;
@@ -328,18 +328,18 @@ header{
     border-radius: 12%;
     filter: drop-shadow(0 26px 22px black);}
 .iCa2{
-        margin-top: -76%;
-        margin-left: 0%;
-        width: 100%;
-        height: 46%;
-        opacity: 0.0;
-        border-radius: 12%;
-        transition: 1s all;
-        filter: drop-shadow(0 26px 22px black);}
+    margin-top: -76%;
+    margin-left: 0%;
+    width: 100%;
+    height: 46%;
+    opacity: 0.0;
+    border-radius: 12%;
+    transition: 1s all;
+    filter: drop-shadow(0 26px 22px black);}
 .iCa2:hover{
-  opacity: 1;
-  height: 50%;
-  transform: scale(1.1);} 
+    opacity: 1;
+    height: 50%;
+    transform: scale(1.1);} 
 .catalogoTitulo h4{
     color: #323232;
     letter-spacing: 2px;
@@ -372,16 +372,16 @@ header{
     text-decoration: none;
     margin-top: 40px;}
 footer{
-display:flex ;
-justify-content:center ;
-width: 100%;
-min-height: 100px;
-padding: 20px 50px;
-position: relative;
-background-color: #EC1C24;
-color: aliceblue;
-flex-direction: column;
-align-items:center ;}
+    display:flex ;
+    justify-content:center ;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    position: relative;
+    background-color: #EC1C24;
+    color: aliceblue;
+    flex-direction: column;
+    align-items:center ;}
 footer .info{
     display:flex;}
 footer li{
@@ -391,14 +391,14 @@ footer li a{
     text-decoration: none;
     color: aliceblue;}
 footer .nosotros{
- align-items:center;
- justify-content: center;
- margin: 6px 6px 10px ;}
- footer a:hover{
+    align-items:center;
+    justify-content: center;
+    margin: 6px 6px 10px ;}
+footer a:hover{
     transition: 1s all;
-    color: red;}    
+    color: black;}    
 .copyright{
- text-align:center;}
+    text-align:center;}
 footer .wave{
     position: absolute;
     top:-80px ;

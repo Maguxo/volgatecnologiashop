@@ -1,7 +1,8 @@
 @media only screen and (min-width:415px) and (max-width:430px){
+    .anuncioI{
+        width: 13%;}
     header{
-        height: 16.5%;
-    }
+        height: 14.5%;}
     .cabeza .logoP{
         width: 90.5%;}
     .cabeza .menu{
@@ -11,7 +12,7 @@
             text-decoration: none;
             font-weight: 400;
             overflow: hidden;
-            padding: 24 4 ;}
+            padding: 24 4;}
     .menu .hb{
         padding: 0 0 0 ;}
     .menu a{
