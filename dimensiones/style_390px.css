@@ -1,4 +1,4 @@
-@media only screen and (min-width:376px) and (max-width:390px){
+@media only screen and (min-width:375px) and (max-width:390px){
     .anuncioI{
         width: 13%;} 
      header{
@@ -135,6 +135,8 @@
         align-items: center;
         padding: 6 48}    
     #bloque2{
-        display: inline-block;}
+        display: inline-block;
+        padding: 0 103;}
     #bloque3{
-        display: inline-block;}}  
+        display: inline-block;
+        padding: 0 100;}}  
