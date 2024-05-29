@@ -1,6 +1,6 @@
 @media only screen and (min-width:1225px) and (max-width:1230px){
-    .cabeza .logoP{
-      width: 74.5%;}
+   .cabeza .logoP{
+        width: 69.5%;}
    .cabeza .menu{
         display: flex;
         width: 182%;
@@ -14,7 +14,11 @@
    .menu a{
         font-size: 15px;}
     .imaHouse{
-        width: 62px;}    
+        width: 62px;}  
+    .swiper{
+        display:flex;
+        align-items: center;
+        justify-content: center;}  
     .span1{ 
         top: 134px;
         left: 44%;
