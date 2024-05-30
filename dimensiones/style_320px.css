@@ -31,7 +31,7 @@
     .swiper-slide{
         width: 220px;
         height: 390px;
-        font-family: flower;
+        font-family:Georgia, 'Times New Roman', Times, serif;
         background-color: #323232;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
         padding: 26px;
