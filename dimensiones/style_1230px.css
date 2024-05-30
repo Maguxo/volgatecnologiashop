@@ -1,17 +1,17 @@
 @media only screen and (min-width:1225px) and (max-width:1230px){
-   .cabeza .logoP{
+    .cabeza .logoP{
         width: 69.5%;}
-   .cabeza .menu{
+    .cabeza .menu{
         display: flex;
         width: 182%;
         color: aliceblue;
-            text-decoration: none;
-            font-weight: 400;
-            overflow: hidden;
-            padding: 38 0 ;}
-   .menu .hb{
+        text-decoration: none;
+        font-weight: 400;
+        overflow: hidden;
+        padding: 38 0 ;}
+    .menu .hb{
         padding: 38px 0 0 78px;}
-   .menu a{
+    .menu a{
         font-size: 15px;}
     .imaHouse{
         width: 62px;}  

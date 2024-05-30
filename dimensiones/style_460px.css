@@ -5,10 +5,10 @@
         display: flex;
         width: 200%;
         color: aliceblue;
-            text-decoration: none;
-            font-weight: 400;
-            overflow: hidden;
-            padding: 40 4 ;}
+        text-decoration: none;
+        font-weight: 400;
+        overflow: hidden;
+        padding: 40 4 ;}
     .menu .hb{
         padding: 0 0 0 ;}
     .menu a{
@@ -30,7 +30,7 @@
         grid-template-columns: repeat(1,1fr);}
     .c1{
         width: 300px;}
-        .cuaRedes{
+    .cuaRedes{
         background-color: black;
         display:grid;
         width: 100%;
@@ -77,46 +77,45 @@
         padding: 0 20px 0;
         justify-content: center;
         align-items: center;}       
-      .nomredes h3{
-          bottom: 45px;
-          font-size: 20.4px;
-          padding: 0 0;}  
-          .botonR{
-            display: flex;}
-        .liR{
-            list-style: none;
-            margin: 16 50px;}
-        .liR2{
-            list-style: none;
-            margin: 16 50px;}
-        .liR3{
-            list-style: none;
-            margin: 0 50px;}
-        .imaR{
-            font-size: 40px;
-            padding: 0 16px;}
-        .botonA{
-            text-decoration: none;
-            font-size: 16px;
-            color: black;
-            background-color:white;
-            width: 180px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            transform: rotate(-30deg) skew(25deg);
-            box-shadow: -20px 20px 10px rgba(201, 197, 197, 0.5);}
-      footer{
-          padding: 20 0;} 
-      footer .info{
-        display: inline-block;
-      }    
-      #bloque1{
+    .nomredes h3{
+        bottom: 45px;
+        font-size: 20.4px;
+        padding: 0 0;}  
+    .botonR{
+        display: flex;}
+    .liR{
+        list-style: none;
+        margin: 16 50px;}
+    .liR2{
+        list-style: none;
+        margin: 16 50px;}
+    .liR3{
+        list-style: none;
+        margin: 0 50px;}
+    .imaR{
+        font-size: 40px;
+        padding: 0 16px;}
+    .botonA{
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        background-color:white;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        transform: rotate(-30deg) skew(25deg);
+        box-shadow: -20px 20px 10px rgba(201, 197, 197, 0.5);}
+    footer{
+        padding: 20 0;} 
+    footer .info{
+        display: inline-block;}    
+    #bloque1{
         display: block;
         justify-content: center ;
         align-items: center;
         padding: 6 48}    
-        #bloque2{
+    #bloque2{
         display: inline-block;}
-       #bloque3{
+    #bloque3{
         display: inline-block;}}  
